@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  background-color: var(--light-grey) ;
+}
+
+.container {
+  padding-inline: 15px;
+}
+
+:root {
+
+  --marin-blue: hsl(213, 96%, 18%);
+  --purp-blue: hsl(243, 100%, 62%);
+  --pastel-blue: hsl(228, 100%, 84%);
+  --light-blue: hsl(206, 94%, 87%);
+  --red: hsl(354, 84%, 57%);
+  --cool-grey: hsl(231, 11%, 63%);
+  --light-grey: hsl(229, 24%, 87%);
+  --magnol: hsl(217, 100%, 97%);
+  --ala: hsl(231, 100%, 99%);
+}
+
+
+
